@@ -7,7 +7,7 @@ class App extends Component {
   }
 
   dogURL= 'https://api.thedogapi.com/v1/images/search?limit=20' /* limit to 20 dogs*/
-  dogKEY = '' /* API KEY HERE, not in repo for safety reasons*/
+  dogKEY = ''
 
   componentDidMount() {
     fetch(this.dogURL, {method: 'GET', headers: {'x-api-key':this.dogKEY}})
@@ -18,9 +18,11 @@ class App extends Component {
     .catch(console.log)
   }
 
+
+
   render () {
     return (
-      <Dogs dogs={this.state.dogs} />
+      <Dogs dogs={this.state.dogs} dogInfos={this.state.dogArray} />
     );
   }
 }
