@@ -2,8 +2,7 @@
 
 ## Welcome!
 
-#### Here is my two hour attempt at a simple React application that displays lovely dogs from the dog api (https://docs.thedogapi.com/). I believe it works as requested
-##### with the excepetion of toggling the data on click, which I have never implemeneted before in a React context.
+#### Here is my two hour attempt at a simple React application that displays lovely dogs from the dog api (https://docs.thedogapi.com/). I believe it works as requested with the excepetion of toggling the data on click, which I have never implemeneted before in a React context. I traditionally have used Flask and other server side rendered structures for web development, so this was a fun challenge. I'll implemenet the missing functionality asap.  
 
 ## Prerequeisites
 
