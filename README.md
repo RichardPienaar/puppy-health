@@ -1,5 +1,4 @@
 # puppy-health
-# React App Demo
 
 ## Welcome!
 
