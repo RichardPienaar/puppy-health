@@ -10,7 +10,7 @@ export default function Dog(props) {
     <div className="column is-one-quarter-desktop is-half-tablet" key={props.dog.key}
     onClick={() => toggleState(visible === true ? false : true)}>
       <div className="card">
-          <div className="card-image">
+          <div className="card-image is-clickable">
             <figure className="image is-3by2">
             <img src={props.dog.url} alt={props.dog.id}></img>
         
