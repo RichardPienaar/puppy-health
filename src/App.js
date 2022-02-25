@@ -7,7 +7,7 @@ class App extends Component {
   }
 
   dogURL= 'https://api.thedogapi.com/v1/images/search?limit=20' /* limit to 20 dogs*/
-  dogKEY = ''
+  dogKEY = ''/* ADD the API KEY here!*/
 
   componentDidMount() {
     fetch(this.dogURL, {method: 'GET', headers: {'x-api-key':this.dogKEY}})
